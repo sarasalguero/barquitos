@@ -168,6 +168,7 @@ def disparar_connor(tablero_connor, tablero_terminator_original, vidas_connor, v
             break
 
 
+
 def disparar_terminator(tablero, disparos_terminator, vidas_connor):
     '''
     Esta función genera disparos de manera aleatoria.

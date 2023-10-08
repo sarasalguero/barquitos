@@ -14,9 +14,9 @@ def jugar_hundir_la_flota():
         return
 
 
-    tablero_connor = crear_tablero()
-    tablero_terminator_original = crear_tablero()
-    tablero_terminator_reflejo = crear_tablero()
+    tablero_connor = fn.crear_tablero()
+    tablero_terminator_original = fn.crear_tablero()
+    tablero_terminator_reflejo = fn.crear_tablero()
 
     if modo_juego == "demo":
         vidas_connor = 2
@@ -44,3 +44,5 @@ def jugar_hundir_la_flota():
             print("¡Has ganado!")
             break
         break
+
+fn.jugar_hundir_la_flota()
