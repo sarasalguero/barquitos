@@ -45,4 +45,4 @@ def jugar_hundir_la_flota():
             break
         break
 
-fn.jugar_hundir_la_flota()
+jugar_hundir_la_flota()
